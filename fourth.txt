@@ -1,0 +1,27 @@
+git config --global user.name "YOUR NAME"
+git config --global user.email "YOUR EMAIL"
+
+git config alias.KEYBOARD_SHORTCUT COMMAND:
+git config --global alias.i init.
+
+//To Initailize a repository
+git init
+git status
+git add .
+git status
+git commit -m ""
+a repo on github
+git branch -m main
+a remote origin (i.e axu**********/learn_git)
+git push -u origin main
+
+//To update editted Code
+git status
+git add .
+git statusgit commit -m "convey a detailed message"
+git push
+
+//To update a code after deleting a file
+Add this change to the staging area. ("Using the command "git add .")
+Commit with the message "removing third.txt".
+Check out your commits using git log.
